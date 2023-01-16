@@ -1,0 +1,175 @@
+.container {
+  padding: 0rem 8%;
+  height: 110vh;
+  background: radial-gradient(
+    130.5% 312.31% at 0% 100%,
+    #31143a 3.65%,
+    rgba(9, 62, 66, 0.67) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.contentWrapper {
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+
+  .mainImage {
+    width: 45rem;
+  }
+}
+
+.content {
+  margin-top: 8rem;
+  h1 {
+    max-width: 85%;
+    min-height: 6rem;
+    font-size: 3rem;
+    span {
+      :nth-child(1) {
+        background: linear-gradient(90deg, #cb5eee 22.47%, #4be1ec 79.42%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    }
+  }
+  p {
+    font-size: 1.15rem;
+    color: var(--color-gray-500);
+    max-width: 65%;
+    margin-bottom: 4rem;
+  }
+}
+
+.bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 7.5rem;
+
+  .arrow {
+    height: 1.7rem;
+    position: absolute;
+    bottom: 7.8rem;
+    left: 50%;
+  }
+
+  .personInfosWrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    div {
+      h3,
+      p {
+        margin: 0px;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .commentContent {
+    min-width: 351px;
+    font-size: 0.9rem;
+  }
+}
+
+.logosWrapper {
+  display: flex;
+
+  :nth-child(1) {
+    width: 10rem;
+    border-right: 1px solid var(--color-gray-600);
+    padding-right: 0.6rem;
+    margin-right: 0.6rem;
+  }
+  img {
+    width: 5rem;
+  }
+}
+
+.availableOn {
+  margin-top: -50000rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  .container {
+    padding: 0rem 6%;
+    height: 95vh;
+  }
+
+  .content {
+    h1 {
+      max-width: 100%;
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1rem;
+      max-width: 100%;
+    }
+  }
+
+  .contentWrapper {
+    padding-top: 6rem;
+    gap: 0rem;
+    .mainImage {
+      display: none;
+    }
+  }
+
+  .glassBox {
+    display: none;
+  }
+
+  .bottom {
+    padding-bottom: 2rem;
+  }
+
+  .arrow {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px) {
+  .container {
+    padding: 0rem 3%;
+  }
+
+  .contentWrapper {
+    padding-top: 10rem;
+    gap: 3rem;
+
+    .mainImage {
+      width: 30rem;
+    }
+  }
+
+  .content {
+    h1 {
+      max-width: 100%;
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+      max-width: 100%;
+    }
+  }
+
+  .arrow {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  .container {
+    padding: 0rem 17%;
+  }
+}

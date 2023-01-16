@@ -1,0 +1,46 @@
+.colorfulContainer {
+  padding: 4px;
+  background: linear-gradient(90deg, #cb5eee 22.47%, #4be1ec 79.42%);
+  border-radius: 0.8rem;
+  max-width: 320px;
+}
+
+.whiteContainer {
+  padding: 3rem 1.5rem 2rem 1.5rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.8rem;
+  background: var(--color-white);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  gap: 1rem;
+  h2 {
+    color: var(--color-black);
+    width: 80%;
+  }
+  p {
+    margin-top: 0;
+    color: var(--color-gray-600);
+  }
+}
+
+.circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  transform: translate(-50%);
+  background: #9a49b5;
+  box-shadow: 0px 4px 6px rgba(203, 94, 238, 0.6);
+  font-weight: 600;
+  font-size: 1.2rem;
+}

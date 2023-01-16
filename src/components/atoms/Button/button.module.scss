@@ -1,0 +1,23 @@
+.button {
+  padding: 3px;
+  background: linear-gradient(90deg, #cb5eee 22.47%, #4be1ec 79.42%);
+  color: var(--color-white);
+  border-radius: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  &:hover {
+    color: var(--color-black);
+    box-shadow: 0px 2px 6px rgba(203, 94, 238, 0.6);
+    .buttonBody {
+      background: var(--color-gray-300);
+    }
+  }
+}
+
+.buttonBody {
+  width: 100%;
+  height: 100%;
+  padding: 1.1rem;
+  border-radius: 0.8rem;
+  background: var(--color-black);
+}

@@ -1,0 +1,10 @@
+.menuItem {
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  color: var(--color-white);
+
+  &:hover {
+    color: var(--color-primary);
+    cursor: pointer;
+  }
+}
