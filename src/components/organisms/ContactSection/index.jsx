@@ -34,7 +34,7 @@ export function ContactSection() {
         <div className={styles.tryViva}>
           <h1>Try Viva to transform your video calls with Live Translation</h1>
 
-          <Button>Experimente no Google Meets - é grátis</Button>
+          <Button>Try Viva on Google Meets - it's free</Button>
         </div>
       </Parallax>
     </div>

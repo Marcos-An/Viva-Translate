@@ -8,7 +8,7 @@ export function Header() {
     <div className={styles.container}>
       <img src="/assets/viva.png" alt="logo" />
       <Menu data={MENU_ITEMS} />
-      <Button>Contato de vendas</Button>
+      <Button>Contact sales</Button>
     </div>
   );
 }
