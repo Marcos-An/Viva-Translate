@@ -11,6 +11,7 @@
 ### Motivation
 
 This project is a test proposed by [Viva Translate](https://beta.vivatranslate.com/), a marketing site with parallax effects.
+I create the design on figma as well, feel free to take a look [project on FIGMA](https://www.figma.com/file/ACH1bavjq8OKGtERajOnWm/VIVA?node-id=41%3A171&t=KbsSxPutyZxZEH09-1)
 
 
 ### Requirements
